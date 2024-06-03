@@ -20,4 +20,4 @@ For full execution:
 snakemake -s rnaseq_data_processing.snakefile —-latency-wait=60
 ```
 
-You can include the -c4 Snakemake flag for parallelization of jobs if your system supports this.  
+You can include the -c4 Snakemake flag for parallelization of jobs if your system supports this.  Upon completion, count files will be placed in feature_counts_rna/ directory.
