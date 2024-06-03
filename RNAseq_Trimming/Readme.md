@@ -11,12 +11,12 @@ trim.snakemake: snakemake file that reads the fqpath, fq1, and fq2 fields of sam
 
 For dry run: 
 ```
-snakemake -np -s fastqc.snakefile —-latency-wait=60
+snakemake -np -s trim.snakefile —-latency-wait=60
 ```
 
 For full execution: 
 ```
-snakemake -s fastqc.snakefile —-latency-wait=60
+snakemake -s trim.snakefile —-latency-wait=60
 ```
 
 You can include the -c4 Snakemake flag for parallelization of jobs if your system supports this.  Upon completion, trimmed fastq files will be in trimmed_fastqs/ directory.
