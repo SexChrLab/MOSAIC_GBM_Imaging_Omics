@@ -1,6 +1,6 @@
-# General Information
+# Repository Contents
 
-This repository contains code written to analyze brain tumor biopsies.  
+This repository contains code written to analyze brain tumor biopsies that were processed using RNA sequencing for gene expression measurements and whole exome sequencing (WES) for DNA variant calling. 
 
 # Worflows included
 
